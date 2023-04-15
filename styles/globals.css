@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-list::after {
+  @apply content-[''] block absolute w-full h-[2px] bg-white scale-x-0 origin-bottom-right transition-transform duration-500 ease-in-out;
+}
+
+.nav-list:hover::after {
+  @apply origin-bottom-left scale-x-100;
+}
+
+.shadow-card-sosmed {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.26);
+}
+
+.card-gradient::after {
+  @apply content-[''] block h-16 w-20 bg-gradient-to-r from-[#181818]/50 to-[#181818] absolute right-0;
+}
