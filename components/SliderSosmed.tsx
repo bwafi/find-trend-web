@@ -19,6 +19,10 @@ export default function SliderSosmed() {
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Controller]}
         breakpoints={{
+          220: {
+            width: 220,
+            slidesPerView: 3.2,
+          },
           380: {
             width: 380,
             slidesPerView: 3.6,

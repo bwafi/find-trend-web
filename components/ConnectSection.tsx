@@ -11,7 +11,7 @@ export default function ConnectSection() {
         </div>
         <SliderSosmed />
         <Tweet />
-        <div className=" my-24 flex justify-center">
+        <div className="my-24 flex justify-center">
           <button className="font-efrra md:text-base lg:text-lg text-sm bg-black rounded-full py-2 px-5 text-white hover:bg-black/80">
             View More Trend
           </button>

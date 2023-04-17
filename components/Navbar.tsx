@@ -31,7 +31,7 @@ export default function Navbar() {
       </div>
       <button
         onClick={() => setMenu(!menu)}
-        className="flex flex-col gap-4 absolute right-5 lg:hidden w-12 h-10 items-center justify-center">
+        className="flex flex-col gap-2 absolute right-5 lg:hidden w-12 h-10 items-center justify-center">
         <span
           className={`w-6 h-[2px] bg-white origin-top-left ${
             menu ? 'rotate-45 translate-x-[1px]' : ''
