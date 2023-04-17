@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function PartnerSection() {
   return (
-    <div className="h-auto w-full bg-white py-24">
+    <div className="h-auto w-full bg-white py-32 pb-40">
       <div className="container mx-auto w-full px-5">
         <div className="mx-auto flex w-full flex-col items-center lg:w-10/12">
           <h2 className="text-center font-efrra text-3xl font-bold md:text-4xl lg:text-6xl">

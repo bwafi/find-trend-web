@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import ConnectSection from '@/components/ConnectSection';
 import Hero from '@/components/Hero';
 import HowWork from '@/components/HowWork';
 import Layout from '@/components/Layout';
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <HowWork />
       <PartnerSection />
+      <ConnectSection />
     </Layout>
   );
 }

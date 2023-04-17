@@ -15,6 +15,7 @@ module.exports = {
 
       backgroundImage: {
         hero: 'url("/icon/hero-line.svg")',
+        arrowRight: 'url("/icon/right-arrow.svg")',
       },
     },
   },
