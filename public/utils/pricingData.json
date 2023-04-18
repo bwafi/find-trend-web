@@ -1,0 +1,82 @@
+{
+  "month": [
+    {
+      "type": "Personal",
+      "description": "Special first packet for all",
+      "price": 20000,
+      "long": "Month",
+      "option": {
+        "p1": "Up to 5 page each group",
+        "p2": "Up to 10 group page",
+        "p3": "5 Days group page saved"
+      }
+    },
+
+    {
+      "type": "Regular",
+      "description": "Recommended for personal pro",
+      "price": 40000,
+      "long": "Month",
+      "option": {
+        "p1": "Up to 15 page each group",
+        "p2": "Download page up to 20 page",
+        "p3": "Up to 10 group page",
+        "p4": "15 Days group page saved"
+      }
+    },
+    {
+      "type": "Premium",
+      "description": "Packet for Startup & Company",
+      "price": 50000,
+      "long": "Month",
+      "option": {
+        "p1": "Unlimited group pages",
+        "p2": "Unlimited download page",
+        "p3": "Unlimited page each group",
+        "p4": "Customize sorting group pages",
+        "p5": "Customize group page name",
+        "p6": "30 Days group page saved"
+      }
+    }
+  ],
+  "year": [
+    {
+      "type": "Personal",
+      "description": "Special first packet for all",
+      "price": 110000,
+      "long": "Year",
+      "option": {
+        "p1": "Up to 5 page each group",
+        "p2": "Up to 10 group page",
+        "p3": "5 Days group page saved"
+      }
+    },
+
+    {
+      "type": "Regular",
+      "description": "Recommended for personal pro",
+      "price": 115000,
+      "long": "Year",
+      "option": {
+        "p1": "Up to 15 page each group",
+        "p2": "Download page up to 20 page",
+        "p3": "Up to 10 group page",
+        "p4": "15 Days group page saved"
+      }
+    },
+    {
+      "type": "Premium",
+      "description": "Packet for Startup & Company",
+      "price": 120000,
+      "long": "Year",
+      "option": {
+        "p1": "Unlimited group pages",
+        "p2": "Unlimited download page",
+        "p3": "Unlimited page each group",
+        "p4": "Customize sorting group pages",
+        "p5": "Customize group page name",
+        "p6": "30 Days group page saved"
+      }
+    }
+  ]
+}

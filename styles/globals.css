@@ -19,3 +19,9 @@
 .card-gradient::after {
   @apply content-[''] block h-16 w-20 bg-gradient-to-r from-[#181818]/50 to-[#181818] absolute right-0;
 }
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
