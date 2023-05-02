@@ -1,13 +1,25 @@
 import Image from 'next/image';
 import React from 'react';
 import Container from './Container';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
   return (
     <Container>
       <div className="relative flex h-auto w-full flex-col items-center gap-7 bg-black bg-hero bg-cover text-white">
         <div className="mt-32 flex flex-col gap-3 lg:mt-52">
-          <p className="text-center font-efrra text-4xl font-extrabold md:text-5xl lg:text-7xl">Minimize your tabs.</p>
+          <TypeAnimation
+            sequence={[
+              'Simplify your life', // Types 'One'
+              1000, // Waits 1s
+              'Minimize your tabs.', // Deletes 'One' and types 'Two'
+              3000, // Waits 2s // Types 'Three' without deleting 'Two'
+            ]}
+            className="text-center font-efrra text-4xl font-extrabold md:text-5xl lg:text-7xl"
+            wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+          />
           <p className="text-center font-efrra text-4xl font-extrabold md:text-5xl lg:text-7xl">Find the trends!</p>
         </div>
         <div className="flex w-10/12 justify-center md:w-6/12 lg:w-6/12">
